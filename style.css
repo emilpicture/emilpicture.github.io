@@ -29,7 +29,7 @@ img { max-width: 100%; display: block; border-radius: var(--radius); }
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: url("header.jpg") no-repeat center center/cover;
+  background: url("hero.jpg") no-repeat center center/cover;
   color: #fff;
   position: relative;
 }
@@ -160,6 +160,7 @@ footer {
 .lb-close { top: 10px; right: 10px; }
 .lb-prev { top: 50%; left: -50px; transform: translateY(-50%); }
 .lb-next { top: 50%; right: -50px; transform: translateY(-50%); }
+
 
 
 
