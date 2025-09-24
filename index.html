@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Emilien ATR — Photographie Automobile</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Emilien ATR</h1>
+      <p>Photographe passionné d’automobile</p>
+      <a href="#gallery-section" class="btn">Découvrir mes photos</a>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="container about">
+    <h2>À propos</h2>
+    <p>Je m’appelle Emilien, passionné par l’automobile et la photographie. À travers mes clichés, je capture l’élégance, la puissance et les détails uniques des voitures. Ce site est mon portfolio, un espace pour partager mes plus belles photos et mon univers.</p>
+  </section>
+
+  <!-- GALERIE -->
+  <section id="gallery-section" class="container">
+    <h2>Galerie</h2>
+    <div class="masonry-gallery" id="gallery">
+      <div class="photo-card"><img src="photo1.jpg" alt="Photo 1"></div>
+      <div class="photo-card"><img src="photo2.jpg" alt="Photo 2"></div>
+      <div class="photo-card"><img src="photo3.jpg" alt="Photo 3"></div>
+      <div class="photo-card"><img src="photo4.jpg" alt="Photo 4"></div>
+      <div class="photo-card"><img src="photo5.jpg" alt="Photo 5"></div>
+      <div class="photo-card"><img src="photo6.jpg" alt="Photo 6"></div>
+      <div class="photo-card"><img src="photo8.jpg" alt="Photo 8"></div>
+      <div class="photo-card"><img src="photo9.jpg" alt="Photo 9"></div>
+      <div class="photo-card"><img src="photo10.jpg" alt="Photo 10"></div>
+      <div class="photo-card"><img src="photo11.jpg" alt="Photo 11"></div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="container contact">
+    <h2>Contact</h2>
+    <form>
+      <div class="field">
+        <label for="name">Nom</label>
+        <input type="text" id="name" required>
+      </div>
+      <div class="field">
+        <label for="email">Email</label>
+        <input type="email" id="email" required>
+      </div>
+      <div class="field">
+        <label for="message">Message</label>
+        <textarea id="message" required></textarea>
+      </div>
+      <button type="submit" class="btn">Envoyer</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    © <span id="year"></span> Emilien ATR — Photographie automobile
+  </footer>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <div class="inner">
+      <button class="lb-close" id="lb-close">✕</button>
+      <button class="lb-prev" id="lb-prev">◀</button>
+      <img src="" alt="" id="lb-img">
+      <button class="lb-next" id="lb-next">▶</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
